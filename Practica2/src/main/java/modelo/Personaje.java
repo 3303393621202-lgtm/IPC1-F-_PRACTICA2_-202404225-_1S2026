@@ -2,11 +2,17 @@
 package modelo;
 
 public class Personaje {
+    //innicializar variables
     private String codigo;
     private String nombre;
     private String casa;
     private String escoba;
     private int puntos;
+
+        //constructor
+    
+    public Personaje() {
+    }
 
     public Personaje(String codigo, String nombre, String casa, String escoba, int puntos) {
         this.codigo = codigo;
@@ -15,7 +21,8 @@ public class Personaje {
         this.escoba = escoba;
         this.puntos = puntos;
     }
-
+    
+    //getters and setters
     public String getCodigo() {
         return codigo;
     }
@@ -47,7 +54,7 @@ public class Personaje {
         this.puntos = puntos;
     }
     
-    // Método que define velocidad (uso de función)
+    // Método para definir la velocidad (función)
     public int getVelocidad() {
         switch (escoba) {
             case "Nimbus 2000" -> {
