@@ -69,4 +69,8 @@ public class Personaje {
         }
         return 3000;
     }
+
+    public void sumarPuntos(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

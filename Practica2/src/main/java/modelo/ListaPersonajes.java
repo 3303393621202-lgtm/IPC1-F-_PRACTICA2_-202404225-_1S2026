@@ -2,13 +2,13 @@ package modelo;
 
 public class ListaPersonajes {
 
-    // Vector de 10 espacios
+    // Vector de 100 espacios
     public static Personaje[] lista = new Personaje[10];
     public static int contador = 0;
 
     // Método para agregar personajes
     public static boolean agregar(Personaje p) {
-        if (contador < 10) {
+        if (contador < 100) {
             lista[contador] = p;
             contador++;
             return true;
